@@ -34,10 +34,6 @@ The model has a high accuracy of 95.2% and thus is good at detecting true positi
 The oversampled model has a higher accuracy of 99.4% and thus is better at detecting true positives and true negatives. The Precision is at 84% for the high-risk loan vs 100% for the healthy loan. The recall for the high-risk loan is 99% so the model was able to predict correctly 613 / 619 true values for high-risk loans. Looking at the F1 score, the model excels at predicting healthy loans but predicts high-risk loans 91% of the time (True positives and true negatives). This is a better model than the original - there was a slight decrease in precision but a significant increase to recall.
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
 Machine Learning Model 2 performs best. It has the higher accuracy of 99.4% and thus is better at detecting true positives and true negatives. It also has the higher recall for high-risk loans.
 
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-In this case, there is more value in oversampling the minority class ("1" high-risk loans). Incorrectly classifing these clients would be costly to the firm so the 1% tradeoff in precision is worth the increase of 8% to the recall in the oversampled model. 
+In this scenario, there is more value in oversampling the minority class ("1" high-risk loans). Incorrectly classifing these clients would be costly to the firm so the 1% tradeoff in precision is worth the increase of 8% to the recall in the oversampled model. 
