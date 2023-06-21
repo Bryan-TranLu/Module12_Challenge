@@ -1,4 +1,9 @@
-# Module 12 Report Template
+# Module 12 Report
+
+Submission for Bryan Tran Lu.
+
+## Instructions
+The assignment script can be found in the Starter_Code folder. The file name is `credit_risk_resampling.ipynb`.
 
 ## Overview of the Analysis
 
